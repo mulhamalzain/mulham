@@ -1,36 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-<h1> heading 1</h1>
-<h2> heading 2</h2>
-<h3> heading 3</h3>
-    <p>first</p>
-    <p>second</p>
-    <table>
-  <tr>
-    <th>Firstname</th>
-    <th>Lastname</th>
-    <th>Age</th>
-  </tr>
-  <tr>
-    <td>mulham</td>
-    <td>alzain</td>
-    <td>17</td>
-  </tr>
-  <tr>
-   
-  </tr>
-</table>
-<ul>
-  <li>haraakah</li>
-  <li>csss</li>
-  <li>htmll</li>
-</ul>
-<img src="https://www.mosoah.com/wp-content/uploads/2019/09/IMfPh1-768x750.jpg" alt="tibbah" style="width:120px;height:150px"
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mulham Portfolio</title>
+    <link rel="stylesheet" href="harakah.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#resume">Resume</a>
+        <a href="#about-me">About Me</a>
+      </nav>
+    </header>
+
+    <div class="hero">
+      <img src="https://www.thecoderpedia.com/wp-content/uploads/2020/06/How-to-learn-Programming.jpg" alt="programming picture">
+      <h1>Mulham Alzain</h1>
+      <p>Hi, I'm Mulham Alzain, a passionate programmer.</p>
+      <button>See more</button>
+    </div>
+
+    <div class="card-container">
+      <div class="card">
+        <img src="https://th.bing.com/th/id/R.5b67c3eb569cdd8d32d85b573b863bca?rik=07xMza8o5XmUOA&riu=http%3a%2f%2fwww.themarketingsage.com%2fwp-content%2fuploads%2f2015%2f08%2fabout-me-leon-severan-we-buy-houses.jpg&ehk=DCCPRvlNZJiuFG4s%2bx4JIeA6BDB%2busXh8acqGBYHZ8o%3d&risl=&pid=ImgRaw&r=0" alt="About Me Image">
+        <p>About Me</p>
+      </div>
+      <div class="card">
+        <img src="https://www.cvhero.com/img/guide/resume/resume.jpg" alt="CV Image">
+        <p>My Resume</p>
+      </div>
+    </div>
+
+    <h2 class="contact-title">Contact us</h2>
+    <form>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name"><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4"></textarea><br><br>
+
+      <button type="submit">Send</button>
+    </form>
+
+    <footer>
+      <p>&copy; 2025 Mulham's Website. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
