@@ -1,4 +1,4 @@
-/* Reset and base */
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -6,7 +6,7 @@ body {
   background-color: antiquewhite;
 }
 
-/* Sticky header */
+
 .main-header {
   background-color: black;
   color: white;
@@ -41,7 +41,7 @@ nav a:hover {
   font-weight: bold;
 }
 
-/* Hero Section */
+
 .hero {
   display: flex;
   justify-content: space-between;
@@ -75,7 +75,7 @@ nav a:hover {
   max-width: 300px;
 }
 
-/* Product Section */
+
 .products {
   padding: 40px 20px;
   background: #fff;
@@ -98,7 +98,7 @@ nav a:hover {
   transform: scale(1.05);
 }
 
-/* Testimonials */
+
 .testimonials {
   background-color: #f3e5d0;
   padding: 30px;
@@ -109,7 +109,6 @@ nav a:hover {
   margin: 10px 0;
 }
 
-/* Newsletter */
 .newsletter {
   padding: 30px;
   background-color: #ddd;
@@ -138,7 +137,6 @@ nav a:hover {
   background: orange;
 }
 
-/* Footer */
 footer {
   padding: 20px;
   background: black;
@@ -151,7 +149,7 @@ footer .socials a {
   text-decoration: none;
 }
 
-/* Media Queries */
+
 @media (max-width: 768px) {
   .hero {
     flex-direction: column;
